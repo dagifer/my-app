@@ -14,7 +14,7 @@ export default function WeatherTab(props) {
       </ul>
       <div className="row">
         <div className="col-6">
-          <div className="clearfix">
+          <div className="clearfix d-flex align-item-center">
             <div className="float-left">
               <img src={props.data.iconUrl} alt={props.data.description} />
             </div>
